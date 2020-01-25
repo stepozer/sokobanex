@@ -17,6 +17,10 @@ defmodule SokobanWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :index
+
+    get "/play/:pack/:level", PlayController, :show
+    get "/play/:pack", PlayController, :pack
+    get "/play", PlayController, :index
   end
 
   # Other scopes may use custom stacks.
