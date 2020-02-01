@@ -26,10 +26,14 @@ defmodule SokobanWeb do
       import Ecto.Query
     end
   end
-  
+
   def controller do
     quote do
       use Phoenix.Controller, namespace: SokobanWeb
+
+      alias Sokoban.Repo
+      import Ecto
+      import Ecto.Query
 
       import Plug.Conn
       import SokobanWeb.Gettext

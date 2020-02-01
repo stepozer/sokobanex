@@ -1,8 +1,8 @@
 defmodule SokobanWeb.PlayController do
   use SokobanWeb, :controller
 
-  #alias Sokoban.Level
-  #alias Sokoban.LevelPack
+  alias Sokoban.Level
+  alias Sokoban.LevelPack
 
   def index(conn, _params) do
     level_packs = Repo.all(LevelPack)

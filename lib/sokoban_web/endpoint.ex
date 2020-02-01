@@ -7,7 +7,7 @@ defmodule SokobanWeb.Endpoint do
   @session_options [
     store: :cookie,
     key: "_sokoban_key",
-    signing_salt: "hgvZy8Ef"
+    signing_salt: "bS+Cjk//"
   ]
 
   socket "/socket", SokobanWeb.UserSocket,

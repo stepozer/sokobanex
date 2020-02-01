@@ -13,7 +13,7 @@ config :sokoban,
 # Configures the endpoint
 config :sokoban, SokobanWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "Va1jeelqj6ctg6xwdVN/l0eydfujfmwNK27XhXJdwhnefYIVmyH5LF8K/Rh32+6T",
+  secret_key_base: "9/ep5mvI3DudPwTAn8L3+uc2ikBGFZqdwtT0c65EkpGtOSaH6dTRPmDki1R+fXFg",
   render_errors: [view: SokobanWeb.ErrorView, accepts: ~w(html json)],
   pubsub: [name: Sokoban.PubSub, adapter: Phoenix.PubSub.PG2]
 

@@ -1,4 +1,4 @@
-defmodule SokobanWeb.Level do
+defmodule Sokoban.Level do
   use SokobanWeb, :model
 
   schema "levels" do

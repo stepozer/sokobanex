@@ -1,4 +1,4 @@
-defmodule SokobanWeb.User do
+defmodule Sokoban.User do
   use SokobanWeb, :model
 
   schema "users" do

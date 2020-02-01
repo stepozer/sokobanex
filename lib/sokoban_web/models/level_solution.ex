@@ -1,4 +1,4 @@
-defmodule SokobanWeb.LevelSolution do
+defmodule Sokoban.LevelSolution do
   use SokobanWeb, :model
 
   schema "level_packs" do
